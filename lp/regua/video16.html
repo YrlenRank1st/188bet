@@ -1,0 +1,121 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link media="screen" type="text/css" rel="stylesheet" href="style.css">
+<title>188bet</title>
+<meta name="author" content="estúdio grampo" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+</head>
+
+<body>
+<div class="top-bar">
+<img src="logo.png" alt="188BET">
+</div>	
+
+<p id="descricao">
+05 erros comuns de um apostador<span> com futirinhas </span>
+</p>
+
+<div id="video-embed">
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/349927774?autoplay=1&color=ec3237&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</div>
+<div class="btn-call"><a href="https://www.188bet.com/pt-br/sports" >APOSTE AGORA</a></div>
+
+<div class="slider-mobile-wr mobile">
+<img src="prev_m.png" id="prev_mobile">
+<div class="slider-mobile">
+  <div><a href="#"><img src="video1.jpg"><div><h2>VEJA TAMBÉM</h2><strong>188BET COM BELLETTI</strong> Cotações Especiais</div></a></div>
+  <div><a href="#"><img src="video2.jpg"><div><h2>VEJA TAMBÉM</h2><strong>188BET COM Gustavo Hofman</strong> Boleto Rápido e Bônus Instantâneo</div></a></div>
+  <div><a href="#"><img src="video3.jpg"><div><h2>VEJA TAMBÉM</h2><strong>188BET COM FUTIRINHAS</strong> Bônus de 100% até R$200</div></a></div>
+</div>
+<img src="next_m.png" id="next_mobile">
+</div>
+
+<p id="informacao">
+<span>COTAÇÕES</span><br>
+Nossas ODDs são até <strong>20% melhores</strong> do que o mercado<br>
+<br>
+<span>SUPORTE</span><br>
+<strong>24h</strong> por dia e 7 dias por semana<br>
+<br>
+<span>PAGAMENTOS</span><br>
+<img src="pagamentos.png" alt="Pagamentos">
+<br>
+</p>
+
+<div class="slider-desktop-wr desktop">
+<h2><img src="prev.png" id="prev_desktop"><span>VEJA TAMBÉM</span><img src="next.png" id="next_desktop"></h2>
+<div class="slider-desktop">
+  <div><a href="index.html"><img src="video3.jpg"><strong>188BET COM FUTIRINHAS</strong> Bônus de Boas Vindas</a></div>  
+  <div><a href="video2.html"><img src="video1.jpg"><strong>188BET COM Belletti</strong> Outros tipos de apostas</a></div>
+  <div><a href="video5.html"><img src="video2.jpg"><strong>188BET COM Gustavo Hofman</strong> Apostas acumuladas</a></div>  
+</div>
+</div>
+
+
+
+<script>
+  $(document).ready(function(){
+    $slider_desk = $('.slider-desktop').bxSlider({
+    pager:false,
+    controls: false,
+    minSlides: 3,
+    maxSlides: 3,
+    slideWidth: 999999,
+    infiniteLoop: false,
+    adaptiveHeight:true
+  });
+  });
+
+   $('#next_desktop').click(function(){
+      $slider_desk.goToNextSlide();
+      return false;
+    });
+
+    $('#prev_desktop').click(function(){
+      $slider_desk.goToPrevSlide();
+      return false;
+    });
+
+    $(document).ready(function(){
+    $slider_mob = $('.slider-mobile').bxSlider({
+    pager:false,
+    controls: false,
+    minSlides: 1,
+    maxSlides: 1,
+    slideWidth: 999999,
+    infiniteLoop: true,
+    adaptiveHeight:true
+  });
+  });
+
+   $('#next_mobile').click(function(){
+      $slider_mob.goToNextSlide();
+      return false;
+    });
+
+    $('#prev_mobile').click(function(){
+      $slider_mob.goToPrevSlide();
+      return false;
+    });
+
+</script>
+
+<div class="top-bar">
+<img src="logo.png" alt="188BET">
+</div>	
+
+<div id="slider">
+
+</div>
+
+</body>
+</html>

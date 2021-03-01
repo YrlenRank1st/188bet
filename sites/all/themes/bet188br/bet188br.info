@@ -1,0 +1,21 @@
+; Main values
+name = 188Bet Brasil
+description = Theme for 188Bet Brasil Microsite
+core = 7.x
+
+; Regions
+regions[live_header] = Live Header
+regions[header] = Header
+regions[login] = Login Zone
+regions[menus] = Admin Menus
+regions[content] = Content
+regions[footer] = Footer
+regions[bottom] = Bottom Bar
+
+; Stylesheets
+stylesheets[all][] = css/sfuitext.css
+stylesheets[all][] = css/main.css
+
+; Scripts
+scripts[] = js/menu.js
+scripts[] = js/dynablade.js

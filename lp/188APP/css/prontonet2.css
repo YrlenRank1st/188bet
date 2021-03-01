@@ -1,0 +1,377 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  color: #000000;
+}
+
+p {
+  padding: 0 0;
+  margin: 0 0;
+}
+
+
+.fw900 {
+  font-weight: 900;
+}
+
+.uppercase-title {
+  text-transform: uppercase;
+}
+
+.fs32px {
+  font-size: 32px;
+}
+
+.fs12px {
+  font-size: 12px;
+}
+
+
+.fs16px {
+  font-size: 16px;
+}
+.topbar1 {
+  background: #494952;
+  height: 56px;
+}
+
+.topbar2 {
+  background: #202020;
+  height: 56px;
+  border-bottom: 1px solid #b9baba;
+}
+
+
+
+.header-wrapper {
+  position: relative;
+  background: #eceded;
+}
+
+.header-banner-title {
+  margin-right: 117px;
+}
+
+.main-image {
+  position: absolute;
+ top: -140px;
+/*
+  background: url('../images/img_banner-main-image_2.png') no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  height: 850px;
+*/
+  
+}
+
+
+.header-content {
+  text-align: right;
+  padding: 16px 0px 0px 0px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.img-brasil-mundo,
+.img-cotacoes{
+    max-width: 50px;
+  width: 100%;
+}
+.img-pagamentos-dollar-sign {
+  max-width: 32px;
+  width: 100%;
+}
+.header-title {
+ text-transform: uppercase;
+  font-size: 32px;
+  font-weight: 900;
+  color: #ff9200;
+}
+
+.main-title {
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: normal;  
+}
+
+brasil-e-mundo-section p, 
+.cotacoes-section p,
+.pagamentos-section p {
+  font-size: 16px;
+}
+
+.brasil-e-mundo-section, 
+.cotacoes-section,
+.pagamentos-section {
+  padding-top: 15px;
+}
+
+
+
+.cta1-jogue-agora {
+  text-align: center;
+}
+.cta1-jogue-agora img {
+  width: 100%;
+  max-width: 380px;
+}
+
+
+.seguranca-wrapper {
+  background: #b1b3b4;
+}
+
+.seguranca-content {
+  text-align: center;
+  padding: 24px 0px;
+  -webkiit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.info-section {
+  background: #f1f2f2;
+  text-align: center;
+  padding: 54px 0px;
+}
+
+
+
+.info-content-icons img {
+  max-width: 150px;
+  width: 100%;
+}
+.info-content-icons, 
+.seguranca-info {
+  text-align: right;
+}
+
+.info-content-icons p {
+    padding-right: 65px;
+}
+
+.seguranca-header,
+.seguranca-sub-header {
+  padding: 40px 0px 0px 0px;
+}
+
+.vid-player {
+  padding: 32px 0px;
+  max-width: 750px;
+  margin: 0 auto;
+  width: 100%;
+}
+.img-seguranca {
+  max-width: 130px;
+  width: 100%;
+}
+.como-deposito {
+  background: #58585a;
+  color: #ffffff;
+  padding: 16px 0px;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 8px;
+}
+
+.como-saque {
+  color: #3e3d40;
+  border: 1px solid #3e3d40;
+  text-align: center;
+  padding: 16px 0px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 8px;
+}
+
+.seguranca-list ul {
+  list-style:none;
+  list-style-image: url('../images/img_li.png');
+  text-align: left;
+}
+
+
+
+.footer-wrapper {
+  background: url('../images/img_footer-background.png') no-repeat top center;
+  background-size: cover;
+  text-align: center;
+}
+
+.footer-icons {
+  text-align: center;
+  margin-top: 70px 0;
+}
+.footer-icons img {
+  max-width: 200px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.cta2-jogue-angora img {
+  width: 100%;
+  max-width: 520px;
+  margin-top: 52px;
+}
+
+.footer-logo img {
+  max-width: 200px;
+  width: 100%;
+}
+
+
+@media (max-width: 1440px) {
+  .main-image {
+  position: absolute;
+ top: -130px;
+  }
+}
+
+@media (min-width: 1031px) and (max-width: 1290px) {
+ .main-image {
+  position: absolute;
+ top: -148px;
+  }
+  
+  .header-banner-title {
+  margin-right: 110px;
+}
+  
+  .header-title {
+ text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 900;
+  color: #ff9200;
+}
+
+.main-title {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;  
+}
+  .cta1-jogue-agora img {
+  width: 100%;
+  max-width: 260px;
+}
+.brasil-e-mundo-section p, 
+.cotacoes-section p,
+.pagamentos-section p {
+  font-size: 14px;
+}
+  
+  .cta1-jogue-agora img {
+    margin: 0px, 0px !important;
+  }
+  
+}
+
+@media (max-width: 1030px) {
+  
+.header-banner-title {
+  margin-right: 80px;
+}
+  
+  .main-image {
+  position: absolute;
+ top: -88px;
+  }
+  
+  .header-title {
+ text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 900;
+  color: #ff9200;
+}
+
+.main-title {
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 400;  
+}
+  .cta1-jogue-agora img {
+  width: 100%;
+  max-width: 200px;
+}
+.brasil-e-mundo-section p, 
+.cotacoes-section p,
+.pagamentos-section p {
+  font-size: 12px;
+}
+
+.img-brasil-mundo,
+.img-cotacoes{
+    max-width: 45px;
+  width: 100%;
+}
+.img-pagamentos-dollar-sign {
+  max-width: 25px;
+  width: 100%;
+}
+  
+}
+
+
+@media screen and (max-width: 767px) {
+  
+.brasil-e-mundo-section, 
+.cotacoes-section,
+.pagamentos-section {
+  padding-top: 35px;
+}
+  
+  .main-image {
+  position: relative;
+     border-bottom: 1px solid #b9baba;
+}
+  
+  .header-content {
+    top: -80px;
+  }
+  
+  .header-banner-title {
+  margin-right: 50px;
+}
+  
+  .img-pagamentos-dollar-sign {
+  max-width: 24px;
+  width: 100%;
+}
+
+  .header-title {
+ text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 900;
+  color: #ff9200;
+}
+
+.main-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 400;  
+}
+
+  .info-content-icons {
+    margin: 0 auto;
+    text-align: center;
+  }
+ 
+  .info-content-icons p {
+    padding-right: 0px;
+}
+  
+  
+  .seguranca-info p {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0px 20px;
+  }
+  
+  .list-container {
+    padding: 20px 0px 0px 0px;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
